@@ -34,7 +34,7 @@ public class HalfAdder extends Gate {
         }
         switch (outputPin) {
             case 0:
-                return nanddRight.read();
+                return nandRight.read();
             case 1:
                 return nanddRight.read();
         }
